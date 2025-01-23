@@ -5,8 +5,8 @@ from plyer import notification
 def enviar_lembrete():
     notification.notify(
         title="Lembrete Água",
-        message="Bebe Agua, Safado",
-        app_name="Lembrete Awa",
+        message="Bebe Agua",
+        app_name="Lembrete água",
         timeout=10
     )
 
